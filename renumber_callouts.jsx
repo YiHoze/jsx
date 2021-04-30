@@ -16,11 +16,11 @@
     block = startString.split("-");
     if ( block.length > 1) {    
         block = startString.split("-");
-        searchPrefix = "^" + block[0] + "\-";
+        searchPrefix = "^\s?" + block[0] + "\-";
         sNum = Number(block[1]);
         replacePrefix = block[0] + "-";
     } else {
-        searchPrefix = "^";
+        searchPrefix = "^\\s?";
         sNum = Number(startString);
         replacePrefix = "";
     }
@@ -34,7 +34,7 @@
 
     i = sNum;
     do {
-        searchString =  searchPrefix + String(i) + "$";
+        searchString =  searchPrefix + String(i) + "\\s?$";
         re = RegExp(searchString);
         replaceString = replacePrefix + String(i + aNum);        
         for (j=0; j<TextFrames.length; j++) {
@@ -45,10 +45,10 @@
     } while ( i != eNum );    
 }
 
-// RenumberCallout("10", 20, -2);
-// RenumberCallout("40", 30, 2);
-// RenumberCallout("9-1", 10, 20);
-// RenumberCallout("35-11", 15, 10);
+//RenumberCallout("10", 20, -2);
+//RenumberCallout("40", 30, 2);
+//RenumberCallout("9-1", 10, 20);
+//RenumberCallout("35-11", 15, 10);
 
 
 // var input = prompt("Enter start number, end number, and addend with spaces:", "20 30 -2");
