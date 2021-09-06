@@ -45,11 +45,13 @@
     } while ( i != eNum );    
 }
 
+RenumberCallout("5", 17, -1);
+RenumberCallout("19", 37, -2);
+
 //RenumberCallout("10", 20, -2);
 //RenumberCallout("40", 30, 2);
 //RenumberCallout("9-1", 10, 20);
 //RenumberCallout("35-11", 15, 10);
-
 
 // var input = prompt("Enter start number, end number, and addend with spaces:", "20 30 -2");
 // var range = input.split(" ");
