@@ -9,6 +9,7 @@
 * `EPS_to_JPG`: 지정된 폴더에서 모든 EPS 파일들을 JPG로 내보낸다.
 * `EPS_to_PNG`: 지정된 폴더에서 모든 EPS 파일들을 PNG로 내보낸다.
 * `renumber_callouts`: 열려 있는 파일에서 콜아웃 번호들을 더하거나 빼서 변경한다. https://hoze.tistory.com/1955 를 보시라.
+* `resize_EPS`: 지정된 폴더에서 모든 EPS 이미지의 폭을 지정된 크기로 변경한다.
 
 # 인디자인
 
