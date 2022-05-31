@@ -2,6 +2,7 @@
 
 * `AI_to_CS6EPS`: 지정된 폴더에서 모든 AI 파일들을 CS6 버전의 EPS로 저장한다.
 * `AI_to_EPS`: 지정된 폴더에서 모든 AI 파일들을 EPS로 저장한다.
+* `AI_to_PDF`: 지정된 폴더에서 모든 AI 파일들을 PDF로 저장한다.
 * `EPS_to_AI`: 지정된 폴더에서 모든 EPS 파일들을 AI로 저장한다.
 * `EPS_to_CS5EPS`: 지정된 폴더에서 모든 EPS 파일들을 CS5 버전의 EPS로 저장한다.
 * `EPS_to_CS6EPS`: 지정된 폴더에서 모든 EPS 파일들을 CS6 버전의 EPS로 저장한다.
